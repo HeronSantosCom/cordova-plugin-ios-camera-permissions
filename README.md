@@ -20,6 +20,7 @@ cordova plugin add https://github.com/Cordobo/cordova-plugin-ios-camera-permissi
 
 On installation you can customise the prompts shown by setting the following variables on installation.
 
+- LOCATION_USAGE_DESCRIPTION for NSLocationWhenInUseUsageDescription
 - CAMERA_USAGE_DESCRIPTION for NSCameraUsageDescription
 - MICROPHONE_USAGE_DESCRIPTION for NSMicrophoneUsageDescription
 - PHOTOLIBRARY_ADD_USAGE_DESCRIPTION for NSPhotoLibraryAddUsageDescription (write-access only, iOS 11 only)
@@ -28,6 +29,7 @@ On installation you can customise the prompts shown by setting the following var
 For example:
 ```
 cordova plugin add cordova-plugin-ios-camera-permissions && \
+--variable LOCATION_USAGE_DESCRIPTION="your usage message" && \
 --variable CAMERA_USAGE_DESCRIPTION="your usage message" && \
 --variable MICROPHONE_USAGE_DESCRIPTION="your microphone usage message here" && \
 --variable PHOTOLIBRARY_ADD_USAGE_DESCRIPTION="your photo library usage message here" && \
