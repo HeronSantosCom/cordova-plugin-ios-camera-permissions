@@ -40,21 +40,11 @@
                 <string>$PHOTOLIBRARY_USAGE_DESCRIPTION</string>
             </config-file>
 
-            
-            
             <config-file target="*-Info.plist" parent="CFBundleLocalizations">
                 <array>
-                    <string>fr</string>
-                </array>
-            </config-file>
-            
-            <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes" overwrite="true">
-                <array>
-                    <string>com.medicallconcept.entractes</string>
-                    <string>commedicallconceptentractes</string>
-                    <string>fb</string>
-                    <string>comgooglemaps</string>
-                    <string>com.google.maps</string>
+                    <string>en</string>
+                    <string>pt</string>
+                    <string>pt_BR</string>
                 </array>
             </config-file>
             
