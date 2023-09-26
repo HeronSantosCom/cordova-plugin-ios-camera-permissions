@@ -27,7 +27,11 @@ On installation you can customise the prompts shown by setting the following var
 
 For example:
 ```
-cordova plugin add cordova-plugin-ios-camera-permissions --variable CAMERA_USAGE_DESCRIPTION="your usage message" --variable MICROPHONE_USAGE_DESCRIPTION="your microphone usage message here" --variable PHOTOLIBRARY_ADD_USAGE_DESCRIPTION="your photo library usage message here" --variable PHOTOLIBRARY_USAGE_DESCRIPTION="your photo library usage message here" --save
+cordova plugin add cordova-plugin-ios-camera-permissions && \
+--variable CAMERA_USAGE_DESCRIPTION="your usage message" && \
+--variable MICROPHONE_USAGE_DESCRIPTION="your microphone usage message here" && \
+--variable PHOTOLIBRARY_ADD_USAGE_DESCRIPTION="your photo library usage message here" && \
+--variable PHOTOLIBRARY_USAGE_DESCRIPTION="your photo library usage message here" --save
 ```
 
 ## Usage
