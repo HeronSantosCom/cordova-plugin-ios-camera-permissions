@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<plugin id="cordova-plugin-ios-camera-permissions" version="1.3.0"
+<plugin id="cordova-plugin-ios-camera-permissions" version="1.3.1"
     xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <name>iOS Permissions</name>
     <author>Andreas Jacob (http://cordobo.com/)</author>
@@ -51,8 +51,6 @@
         <config-file target="*-Info.plist" parent="CFBundleLocalizations">
             <array>
                 <string>en</string>
-                <string>pt</string>
-                <string>pt_BR</string>
             </array>
         </config-file>
 
